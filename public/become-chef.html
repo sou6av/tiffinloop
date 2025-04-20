@@ -1,0 +1,536 @@
+<html lang="en" class="light" style="color-scheme: light;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/_next/static/css/5e5c87ba0fcdd97e.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/8c27ffaabc6186da.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/56e3b90c5978c1c5.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/4fd679be2c679586.css" data-precedence="next">
+    <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-61b5591143860ecb.js">
+    <script src="/_next/static/chunks/fea1584a-c7ab7ad9e9cd8bab.js" async=""></script>
+    <script src="/_next/static/chunks/7499-aa027fffb7bf24f3.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-98b6760c594dadf2.js" async=""></script>
+    <script src="/assets/tailwind.js?v=6" async="" fetchpriority="high"></script>
+    <meta name="next-size-adjust" content="">
+    <title>TiffinLoop</title>
+    <script>document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))</script>
+    <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" nomodule=""></script>
+    <link rel="stylesheet" href="/style/chef.css">
+
+    <link rel="preload" href="/_next/static/media/66f30814ff6d7cdf.p.woff2" as="font" crossorigin="" type="font/woff2">
+    <link rel="preload" href="/_next/static/media/6d93bde91c0c2823-s.p.woff2" as="font" crossorigin=""
+        type="font/woff2">
+    <link rel="preload" href="/_next/static/media/e11418ac562b8ac1-s.p.woff2" as="font" crossorigin=""
+        type="font/woff2">
+    <style type="text/tailwindcss">
+        @tailwind base;@tailwind components;@tailwind utilities;@layer base{:root{--background:0 0% 100%;--foreground:20 14.3% 4.1%;--card:0 0% 100%;--card-foreground:20 14.3% 4.1%;--popover:0 0% 100%;--popover-foreground:20 14.3% 4.1%;--primary:24 95% 53%;--primary-foreground:60 9.1% 97.8%;--secondary:60 4.8% 95.9%;--secondary-foreground:24 9.8% 10%;--muted:60 4.8% 95.9%;--muted-foreground:25 5.3% 44.7%;--accent:60 4.8% 95.9%;--accent-foreground:24 9.8% 10%;--destructive:0 84.2% 60.2%;--destructive-foreground:60 9.1% 97.8%;--border:20 5.9% 90%;--input:20 5.9% 90%;--ring:24 95% 53%;--radius:.5rem}.dark{--background:20 14.3% 4.1%;--foreground:60 9.1% 97.8%;--card:20 14.3% 4.1%;--card-foreground:60 9.1% 97.8%;--popover:20 14.3% 4.1%;--popover-foreground:60 9.1% 97.8%;--primary:24 95% 53%;--primary-foreground:60 9.1% 97.8%;--secondary:12 6.5% 15.1%;--secondary-foreground:60 9.1% 97.8%;--muted:12 6.5% 15.1%;--muted-foreground:24 5.4% 63.9%;--accent:12 6.5% 15.1%;--accent-foreground:60 9.1% 97.8%;--destructive:0 62.8% 30.6%;--destructive-foreground:60 9.1% 97.8%;--border:12 6.5% 15.1%;--input:12 6.5% 15.1%;--ring:24 95% 53%}*{@apply border-border;}body{@apply bg-background text-foreground;}}
+    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <style>
+        .f_SW50ZXI {
+            font-family: 'Inter';
+        }
+    </style>
+    <link rel="preload" href="/placeholder.svg?height=800&amp;width=600" as="image">
+</head>
+
+<body class="f_SW50ZXI">
+    <div hidden=""><!--$--><!--/$--></div>
+    <script src="/assets/lite-runtime.js?v=3"></script><!--$-->
+    <style style="">
+        :root {
+            --font-sans: __variable_3a0388;
+            --font-mono: __variable_c1e5c9;
+        }
+    </style>
+    <div class="flex min-h-screen flex-col">
+        <header
+            class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+            <div class="container flex h-16 items-center justify-between"><a href="/"
+                    class="flex items-center gap-2"><img alt="TiffinLoop Logo" loading="lazy" width="120" height="120"
+                        decoding="async" data-nimg="1" class="rounded-md" src="https://i.ibb.co/qMxmQxvR/tiffinloop.webp"
+                        style="color: transparent;">
+                    <nav class="hidden md:flex gap-6"><a href="/"
+                        class="text-sm font-medium hover:text-orange-600 transition-colors">Home</a><a
+                        href="/become-chef" class="text-sm font-medium hover:text-orange-600 transition-colors">Become a
+                        Chef</a><a href="/explore"
+                        class="text-sm font-medium hover:text-orange-600 transition-colors">Explore Meals</a><a
+                        href="/contact" class="text-sm font-medium hover:text-orange-600 transition-colors">Contact</a>
+                </nav>
+                <div class="hidden md:flex gap-4"><a href="/login"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">Login</a><a
+                        href="/signup"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-orange-600 hover:bg-orange-700">Sign
+                        Up</a></div><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 md:hidden"
+                    type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«r3»"
+                    data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-menu h-5 w-5">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg><span class="sr-only">Toggle menu</span></button>
+            </div>
+        </header>
+        <main class="flex-1">
+            <div class="flex flex-col min-h-screen">
+                <section class="bg-orange-50 py-16 md:py-24">
+                    <div class="container">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                            <div class="space-y-6">
+                                <h1 class="text-4xl md:text-5xl font-bold tracking-tight">Share Your Culinary <span
+                                        class="text-orange-600">Passion</span></h1>
+                                <p class="text-lg text-muted-foreground">Join our community of talented home chefs and
+                                    turn your love for cooking into a rewarding opportunity.</p><button
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-11 rounded-full px-8 bg-orange-600 hover:bg-orange-700">Apply
+                                    Now</button>
+                            </div>
+                            <div class="relative h-[400px] rounded-lg overflow-hidden"><img alt="Home chef cooking"
+                                    loading="lazy" decoding="async" data-nimg="fill" class="object-cover"
+                                    src="https://i.ibb.co/4w3RHSVh/20250420-1650-Garden-Confidence-simple-compose-01js9eth3ye49trhse1s81gmb0.webp"
+                                    style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-white">
+                    <div class="container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Become a TiffinLoop Chef?</h2>
+                            <p class="text-muted-foreground max-w-2xl mx-auto">Join our platform and enjoy these
+                                benefits while sharing your culinary creations.</p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6 pt-6">
+                                    <div
+                                        class="rounded-full bg-orange-100 w-12 h-12 flex items-center justify-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-dollar-sign h-6 w-6 text-orange-600">
+                                            <line x1="12" x2="12" y1="2" y2="22"></line>
+                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg></div>
+                                    <h3 class="text-xl font-bold mb-2">Earn Extra Income</h3>
+                                    <p class="text-muted-foreground">Turn your cooking passion into a profitable venture
+                                        by selling your homemade meals to customers in your area.</p>
+                                </div>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6 pt-6">
+                                    <div
+                                        class="rounded-full bg-orange-100 w-12 h-12 flex items-center justify-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-clock h-6 w-6 text-orange-600">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg></div>
+                                    <h3 class="text-xl font-bold mb-2">Flexible Schedule</h3>
+                                    <p class="text-muted-foreground">Set your own hours and decide when you want to
+                                        cook. Our platform adapts to your lifestyle and availability.</p>
+                                </div>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6 pt-6">
+                                    <div
+                                        class="rounded-full bg-orange-100 w-12 h-12 flex items-center justify-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-star h-6 w-6 text-orange-600">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg></div>
+                                    <h3 class="text-xl font-bold mb-2">Build Your Brand</h3>
+                                    <p class="text-muted-foreground">Showcase your culinary skills, build a loyal
+                                        customer base, and establish your personal food brand.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-orange-50">
+                    <div class="container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">How It Works For Chefs</h2>
+                            <p class="text-muted-foreground max-w-2xl mx-auto">Our simple process makes it easy to start
+                                sharing your culinary creations.</p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                            <div class="text-center">
+                                <div
+                                    class="rounded-full bg-orange-600 w-12 h-12 flex items-center justify-center mb-4 mx-auto text-white font-bold">
+                                    1</div>
+                                <h3 class="text-xl font-bold mb-2">Apply</h3>
+                                <p class="text-muted-foreground">Complete our chef application form and share details
+                                    about your culinary background.</p>
+                            </div>
+                            <div class="text-center">
+                                <div
+                                    class="rounded-full bg-orange-600 w-12 h-12 flex items-center justify-center mb-4 mx-auto text-white font-bold">
+                                    2</div>
+                                <h3 class="text-xl font-bold mb-2">Onboarding</h3>
+                                <p class="text-muted-foreground">Once approved, complete our onboarding process and set
+                                    up your chef profile.</p>
+                            </div>
+                            <div class="text-center">
+                                <div
+                                    class="rounded-full bg-orange-600 w-12 h-12 flex items-center justify-center mb-4 mx-auto text-white font-bold">
+                                    3</div>
+                                <h3 class="text-xl font-bold mb-2">Create Menu</h3>
+                                <p class="text-muted-foreground">Add your signature dishes to your menu with
+                                    descriptions, photos, and pricing.</p>
+                            </div>
+                            <div class="text-center">
+                                <div
+                                    class="rounded-full bg-orange-600 w-12 h-12 flex items-center justify-center mb-4 mx-auto text-white font-bold">
+                                    4</div>
+                                <h3 class="text-xl font-bold mb-2">Start Cooking</h3>
+                                <p class="text-muted-foreground">Receive orders, prepare delicious meals, and build your
+                                    customer base.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-white">
+                    <div class="container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">Chef Success Stories</h2>
+                            <p class="text-muted-foreground max-w-2xl mx-auto">Hear from chefs who have found success
+                                and fulfillment on our platform.</p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                            <!-- Chef 1 -->
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md" data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <div class="flex items-center mb-6">
+                                        <div class="relative w-16 h-16 rounded-full overflow-hidden mr-4">
+                                            <img alt="Chef" loading="lazy" decoding="async" class="object-cover"
+                                                src="https://randomuser.me/api/portraits/women/68.jpg"
+                                                style="position: absolute; height: 100%; width: 100%; inset: 0px;">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold">Chef Lakshmi</h4>
+                                            <p class="text-sm text-orange-600">Traditional Kerala Meals</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-4">"As a homemaker in Kozhikode, I never imagined my passion for cooking
+                                        would turn into a livelihood. Thanks to TiffinLoop, I now serve over 50 customers weekly with my authentic
+                                        Kerala sadhya."</p>
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="lucide lucide-chef-hat h-5 w-5 text-orange-600 mr-2"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path
+                                                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" />
+                                            <path d="M6 17h12" />
+                                        </svg><span class="text-sm font-medium">Joined 1 year ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Chef 2 -->
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md" data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <div class="flex items-center mb-6">
+                                        <div class="relative w-16 h-16 rounded-full overflow-hidden mr-4">
+                                            <img alt="Chef" loading="lazy" decoding="async" class="object-cover"
+                                                src="https://randomuser.me/api/portraits/men/75.jpg"
+                                                style="position: absolute; height: 100%; width: 100%; inset: 0px;">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold">Chef Jayan</h4>
+                                            <p class="text-sm text-orange-600">Homemade Fish Curries</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-4">"I started cooking during the lockdown in Alappuzha. With TiffinLoop, my
+                                        spicy meen curry now reaches customers all across town—and my earnings help fund my kids’ education."</p>
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="lucide lucide-chef-hat h-5 w-5 text-orange-600 mr-2"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path
+                                                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" />
+                                            <path d="M6 17h12" />
+                                        </svg><span class="text-sm font-medium">Joined 8 months ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- Chef 3 -->
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md" data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <div class="flex items-center mb-6">
+                                        <div class="relative w-16 h-16 rounded-full overflow-hidden mr-4">
+                                            <img alt="Chef" loading="lazy" decoding="async" class="object-cover"
+                                                src="https://randomuser.me/api/portraits/women/12.jpg"
+                                                style="position: absolute; height: 100%; width: 100%; inset: 0px;">
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold">Chef Raziya</h4>
+                                            <p class="text-sm text-orange-600">Malabar Biryani</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted-foreground mb-4">"TiffinLoop gave me the chance to introduce Malappuram-style dum biryani
+                                        to a larger audience. I now have regular orders from officegoers and students alike."</p>
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="lucide lucide-chef-hat h-5 w-5 text-orange-600 mr-2"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path
+                                                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" />
+                                            <path d="M6 17h12" />
+                                        </svg><span class="text-sm font-medium">Joined 6 months ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>                        
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-orange-50">
+                    <div class="container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4" id="apply">Apply to Become a Chef</h2>
+                            <p class="text-muted-foreground max-w-2xl mx-auto">Fill out the form below to start your
+                                journey as a TiffinLoop chef.</p>
+                        </div>
+                        <div class="max-w-3xl mx-auto">
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6 md:p-8">
+                                    <form class="space-y-6">
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                            <div class="space-y-2"><label for="firstName"
+                                                    class="text-sm font-medium">First Name</label><input
+                                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                    id="firstName" placeholder="Enter your first name"></div>
+                                            <div class="space-y-2"><label for="lastName"
+                                                    class="text-sm font-medium">Last Name</label><input
+                                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                    id="lastName" placeholder="Enter your last name"></div>
+                                        </div>
+                                        <div class="space-y-2"><label for="email" class="text-sm font-medium">Email
+                                                Address</label><input
+                                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="email" placeholder="Enter your email address" type="email"></div>
+                                        <div class="space-y-2"><label for="phone" class="text-sm font-medium">Phone
+                                                Number</label><input
+                                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="phone" placeholder="Enter your phone number"></div>
+                                        <div class="space-y-2"><label for="address"
+                                                class="text-sm font-medium">Address</label><input
+                                                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="address" placeholder="Enter your address"></div>
+                                        <div class="space-y-2"><label for="cuisine" class="text-sm font-medium">Cuisine
+                                                Specialty</label><button type="button" role="combobox"
+                                                aria-controls="radix-«rj»" aria-expanded="false"
+                                                aria-autocomplete="none" dir="ltr" data-state="closed"
+                                                data-placeholder=""
+                                                class="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1"><span
+                                                    style="pointer-events: none;">Select your cuisine
+                                                    specialty</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-chevron-down h-4 w-4 opacity-50"
+                                                    aria-hidden="true">
+                                                    <path d="m6 9 6 6 6-6"></path>
+                                                </svg></button><select aria-hidden="true" tabindex="-1"
+                                                style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                                                <option value=""></option>
+                                                <option value="indian">Indian</option>
+                                                <option value="italian">Italian</option>
+                                                <option value="mexican">Mexican</option>
+                                                <option value="chinese">Chinese</option>
+                                                <option value="thai">Thai</option>
+                                                <option value="mediterranean">Mediterranean</option>
+                                                <option value="other">Other</option>
+                                            </select></div>
+                                        <div class="space-y-2"><label for="experience"
+                                                class="text-sm font-medium">Cooking Experience</label><button
+                                                type="button" role="combobox" aria-controls="radix-«rk»"
+                                                aria-expanded="false" aria-autocomplete="none" dir="ltr"
+                                                data-state="closed" data-placeholder=""
+                                                class="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1"><span
+                                                    style="pointer-events: none;">Select your experience
+                                                    level</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-chevron-down h-4 w-4 opacity-50"
+                                                    aria-hidden="true">
+                                                    <path d="m6 9 6 6 6-6"></path>
+                                                </svg></button><select aria-hidden="true" tabindex="-1"
+                                                style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                                                <option value=""></option>
+                                                <option value="hobby">Hobby Cook (1-2 years)</option>
+                                                <option value="experienced">Experienced Home Cook (3-5 years)</option>
+                                                <option value="advanced">Advanced Home Cook (5+ years)</option>
+                                                <option value="professional">Professional Experience</option>
+                                            </select></div>
+                                        <div class="space-y-2"><label for="about" class="text-sm font-medium">Tell Us
+                                                About Yourself</label><textarea
+                                                class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="about"
+                                                placeholder="Share your cooking background, passion for food, and why you want to join TiffinLoop"
+                                                rows="4"></textarea></div>
+                                        <div class="flex items-start space-x-2"><button type="button" role="checkbox"
+                                                aria-checked="false" data-state="unchecked" value="on"
+                                                class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                                                id="terms"></button><input aria-hidden="true" tabindex="-1"
+                                                type="checkbox" value="on"
+                                                style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 16px; height: 16px;"><label
+                                                for="terms" class="text-sm text-muted-foreground">I agree to
+                                                TiffinLoop's <a href="/terms"
+                                                    class="text-orange-600 hover:underline">Terms of Service</a> and <a
+                                                    href="/privacy" class="text-orange-600 hover:underline">Privacy
+                                                    Policy</a></label></div><button
+                                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 w-full bg-orange-600 hover:bg-orange-700"
+                                            type="submit">Submit Application</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-white">
+                    <div class="container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                            <p class="text-muted-foreground max-w-2xl mx-auto">Find answers to common questions about
+                                becoming a TiffinLoop chef.</p>
+                        </div>
+                        <div class="max-w-3xl mx-auto space-y-6">
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold mb-2">What are the requirements to become a chef?</h3>
+                                    <p class="text-muted-foreground">You need to have a passion for cooking, access to a
+                                        clean kitchen, knowledge of food safety practices, and the ability to prepare
+                                        and deliver meals according to schedule. All chefs must also pass a background
+                                        check and food safety verification.</p>
+                                </div>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold mb-2">How much can I earn as a TiffinLoop chef?</h3>
+                                    <p class="text-muted-foreground">Earnings vary based on your menu pricing, order
+                                        volume, and how often you choose to cook. Many of our active chefs earn between
+                                        $500-$2000 per month, with some top performers earning significantly more.</p>
+                                </div>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold mb-2">Do I need professional cooking experience?</h3>
+                                    <p class="text-muted-foreground">No, professional experience is not required. Many
+                                        of our successful chefs are home cooks who have learned from family recipes or
+                                        developed their skills through passion and practice.</p>
+                                </div>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground border-none shadow-md"
+                                data-TiffinLoop-t="card">
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold mb-2">How does the payment process work?</h3>
+                                    <p class="text-muted-foreground">Customers pay through the TiffinLoop platform when
+                                        they place an order. We handle all payment processing and transfer your earnings
+                                        to your account weekly, minus our service fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-16 md:py-24 bg-orange-600 text-white">
+                    <div class="container text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Share Your Culinary Passion?</h2>
+                        <p class="text-orange-100 max-w-2xl mx-auto mb-8">Join our growing community of home chefs and
+                            start sharing your unique dishes with food lovers in your area.</p><a href="#apply"
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 bg-white text-orange-600 hover:bg-orange-100">Apply
+                            Now</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="bg-orange-50 border-t">
+            <div class="container py-12 md:py-16">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="space-y-4">
+                        <h3 class="text-lg font-bold text-orange-600">TiffinLoop</h3>
+                        <p class="text-sm text-muted-foreground">Connecting home chefs with food lovers. Taste the loop
+                            of homemade goodness.</p>
+                        <div class="flex space-x-4"><a href="#" class="text-muted-foreground hover:text-orange-600"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-facebook h-5 w-5">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg><span class="sr-only">Facebook</span></a><a href="#"
+                                class="text-muted-foreground hover:text-orange-600"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-instagram h-5 w-5">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                </svg><span class="sr-only">Instagram</span></a><a href="#"
+                                class="text-muted-foreground hover:text-orange-600"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-twitter h-5 w-5">
+                                    <path
+                                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                                    </path>
+                                </svg><span class="sr-only">Twitter</span></a></div>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Quick Links</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="/" class="text-muted-foreground hover:text-orange-600">Home</a></li>
+                            <li><a href="/about" class="text-muted-foreground hover:text-orange-600">About Us</a></li>
+                            <li><a href="/explore" class="text-muted-foreground hover:text-orange-600">Explore Meals</a>
+                            </li>
+                            <li><a href="/become-chef" class="text-muted-foreground hover:text-orange-600">Become a
+                                    Chef</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Support</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="/contact" class="text-muted-foreground hover:text-orange-600">Contact Us</a>
+                            </li>
+                            <li><a href="/faq" class="text-muted-foreground hover:text-orange-600">FAQs</a></li>
+                            <li><a href="/help" class="text-muted-foreground hover:text-orange-600">Help Center</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Legal</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="/terms" class="text-muted-foreground hover:text-orange-600">Terms of Use</a>
+                            </li>
+                            <li><a href="/privacy" class="text-muted-foreground hover:text-orange-600">Privacy
+                                    Policy</a></li>
+                            <li><a href="/cookies" class="text-muted-foreground hover:text-orange-600">Cookie Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
+                    <p>© 2025 TiffinLoop. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
